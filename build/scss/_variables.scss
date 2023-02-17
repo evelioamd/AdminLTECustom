@@ -17,6 +17,8 @@ $maroon: #d81b60 !default;
 $black: #111 !default;
 $gray-x-light: #d2d6de !default;
 
+$gray-volt: #1f2937;
+
 $colors: map-merge(
   (
     "lightblue": $lightblue,
@@ -109,7 +111,7 @@ $main-footer-bg: $white !default;
 // --------------------------------------------------------
 
 // Dark sidebar
-$sidebar-dark-bg: $dark !default;
+$sidebar-dark-bg: $gray-volt !default;
 $sidebar-dark-hover-bg: rgba(255, 255, 255, .1) !default;
 $sidebar-dark-color: #c2c7d0 !default;
 $sidebar-dark-hover-color: $white !default;
