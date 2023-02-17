@@ -40,7 +40,8 @@
     "sync": "browser-sync start --server --files *.html pages/ dist/",
     "watch": "concurrently \"npm run watch-css\" \"npm run watch-js\"",
     "watch-css": "nodemon --legacy-watch --watch build/scss -e scss -x \"npm-run-all css-lint css\"",
-    "watch-js": "nodemon --legacy-watch --watch build/js -e js -x \"npm-run-all js-lint js\""
+    "watch-js": "nodemon --legacy-watch --watch build/js -e js -x \"npm-run-all js-lint js\"",
+    "zip": "node build/npm/ZipDist.js -v"
   },
   "keywords": [
     "css",
@@ -76,6 +77,7 @@
     "bs-stepper": "^1.7.0",
     "chart.js": "^2.9.4",
     "codemirror": "^5.65.11",
+    "current-git-branch": "^1.1.0",
     "datatables.net": "^1.12.1",
     "datatables.net-autofill-bs4": "^2.4.0",
     "datatables.net-bs4": "^1.12.1",
